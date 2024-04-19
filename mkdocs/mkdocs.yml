@@ -1,0 +1,10 @@
+site_name: MC-UCB DisasterHacks
+site_url: https://mc-t4d.github.io/ucb_datachallenge
+nav:
+  - Home: index.md
+  - About: about.md
+  - Background: background.md
+  - Resources: data.md
+  - Communciation: communication.md
+
+
