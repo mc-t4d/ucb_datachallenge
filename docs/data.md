@@ -38,6 +38,10 @@
 &ensp;<div>These are resources which you can explore and which generally have information that could be helpful but may or may not directly provide data or information.<br></div>
 * <b>[Lebanon Data Analytics Hub](https://d4it4d.shinyapps.io/Lebanon_Analytics_Hub/)</b>
 &ensp;<div>LDAH is a platform that shows some ways information is currently presented to humanitarians planning cash and voucher programming in the Middle East.<br></div>
+* <b>[Mercy Corps Flood Docs](https://mc-t4d.github.io/imageprocessing/readme.html)</b>
+&ensp;<div>API wrapper for flood and geospatial data.<br></div>
+* <b>[Mercy Corps Flood GitHub](https://github.com/mc-t4d/imageprocessing.git)</b>
+&ensp;<div>API wrapper for flood and geospatial data codebase.<br></div>
 * <b>[Relief Web](https://reliefweb.int/)</b>
 &ensp;<div>Relief Web is a document repository for UNOCHA.<br></div>
 * <b>[Humanitarian Data Exchange](https://data.humdata.org/)</b>
