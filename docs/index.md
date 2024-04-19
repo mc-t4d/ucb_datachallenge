@@ -2,6 +2,8 @@
 <span style="font-size:2.25em;">Mercy Corps - UCB DisasterHacks</span><br>
 <span style="font-size:1.5em;">Humanitarian Cash Programming</span>
 
+## Welcome!
+We are glad you're here! We're looking forward to this DisasterHacks event! Please note this site will continue to be updated until after the Kick Off event on April 24th. 
 
 ## Problem Statement
 Mercy Corps uses Cash and Voucher assistance throughout our programming to ensure our beneficiaries can purchase food and other critical commodities for their household each month. To plan effectively for cash assistance programs, Mercy Corps must track trends in market prices of key commodities and have a firm understanding of cash transfer values (exchange rates) as well as cost of living. This information is found spread across numerous resources including APIs, websites, and social media. The information must be gathered, assessed, and the value of the Minimum Expenditure Basket (MEB) must be calculated each month. This can result in dozens of hours of time spent downloading, cleaning, aggregating, and visualizing data sources. Some data sources are incomplete, necessitating our teams to integrate data sources as well. 
