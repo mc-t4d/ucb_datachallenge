@@ -11,12 +11,13 @@
 &ensp;<div>Crowd sourced data platform for cost of living; please contact us for access to our API key if you decide to use this data source.</div>   
 * [FAOSTAT](https://www.fao.org/faostat/en/#data)
 * [World Bank](https://microdata.worldbank.org/index.php/catalog/4509/data-dictionary/WLD_2021_RTFP-CTRY_v02_M?file_name=WLD_RTFP_country_2024-04-08.csv)
+* [Global Exchange Rates](https://t.me/ExchangeRatesBot)
 
 ## Ethiopia
 * [Somali Region MEB](https://reliefweb.int/report/ethiopia/ethiopia-cash-working-group-minimum-expenditure-basket-somali-region-guidance-note#:~:text=A%20MEB%20defines%20what%20a,costs%20in%20the%20local%20markets.)
 
 ## Democratic Republic of the Congo
-<br>
+* [World Bank](https://microdata.worldbank.org/index.php/catalog/4490/study-description#study_desc1684331430702)
 
 ## Kenya
 * [MEB Guidance, 2019](https://www.calpnetwork.org/wp-content/uploads/2020/03/1568028538.MEB-interim-guidelines-document-Kenya-CWG-July-2019-1.pdf)
