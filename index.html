@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        <link rel="canonical" href="https://mc-t4d.github.io/ucb_datachallenge/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>MC-UCB DisasterHacks</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">MC-UCB DisasterHacks</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="about/" class="nav-link">About</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="background/" class="nav-link">Background</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="data/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="communication/" class="nav-link">Communciation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#welcome" class="nav-link">Welcome!</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#problem-statement" class="nav-link">Problem Statement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#definitions" class="nav-link">Definitions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><span style="font-size:2.25em;">Mercy Corps - UCB DisasterHacks</span><br>
+<span style="font-size:1.5em;">Humanitarian Cash Programming</span></p>
+<h2 id="welcome">Welcome!</h2>
+<p>We are glad you're here! We're looking forward to this DisasterHacks event! Please note this site will continue to be updated until after the Kick Off event on April 24th. </p>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>Mercy Corps uses Cash and Voucher assistance throughout our programming to ensure our beneficiaries can purchase food and other critical commodities for their household each month. To plan effectively for cash assistance programs, Mercy Corps must track trends in market prices of key commodities and have a firm understanding of cash transfer values (exchange rates) as well as cost of living. This information is found spread across numerous resources including APIs, websites, and social media. The information must be gathered, assessed, and the value of the Minimum Expenditure Basket (MEB) must be calculated each month. This can result in dozens of hours of time spent downloading, cleaning, aggregating, and visualizing data sources. Some data sources are incomplete, necessitating our teams to integrate data sources as well. </p>
+<p>Mercy Corps seeks a solution that helps us streamline access to key data sources and calculate the cost of the MEB. The solution should enable streamlined access to APIs or data scrapers, integration of multiple data sources, and calculation of SMEB costs for sub-national administrative areas in each country based on the available data. You may not be able to calculate the MEB or SMEB for all areas at all times, the MEB definition may seem "out of date", and some countries may have the price of the MEB already calculated and available as its own data source. These are all well known issues in the humanitarian data space. At this time, is more important to find a method for users to update and change the MEB definitions in your solution than it is to find the "correct" MEB definition. </p>
+<p>For this project, you should focus on developing MEB cost calculators for the Mercy Corps countries of East Africa including: Kenya, Dem. Rep. of the Congo, Kenya, Ethiopia, Somalia, Sudan, and South Sudan <br><small><a href="https://www.mercycorps.org/where-we-work">Mercy Corps Countries</a></small><br><br>
+Some data sources will be global and we invite you to go beyond this specified geography if it fits your solution to go "wide". Alternatively, you could seek out additional resources for the countries we've specified to show how your solution could go "deep" for one or more particular contexts. </p>
+<p>The solution could take the form of an application or a programming package. The Mercy Corps Image Processing package is an example of a solution that enables teams to access imagery, water, and flood data sources, calculate key indicators, visualize them, and export data for further analysis. You could choose to extend this package or build an analogous one. You can consider including data visualizations and mapping, the ability to identify and/or fill data gaps, the ability to view multiple sources and identify conflicting information for the same market/commodity, calculating the consumer price index in addition to (or in some cases instead of) the (S)MEB, or you could choose to build features we have not thought of! </p>
+<p>Why do we need this? 
+Some organizations and websites provide this information in easily digestible, visualized information sources. But often times, we want to go deeper with our analysis, so we need to be able to export the information. In addition, some data sources - while seemingly reliable - may not be the preferred data source for that country. Having flexible mechanisms to conduct data collection, integration, and analysis is our most preferred scenario. </p>
+<h2 id="definitions">Definitions</h2>
+<p><b>* Mercy Corps Countries in East Africa</b>
+&ensp;<div>Kenya, Dem. Rep. of the Congo, Kenya, Ethiopia, Somalia, Sudan, and South Sudan
+<br><small><a href="https://www.mercycorps.org/where-we-work">Mercy Corps Countries</a></small></div></p>
+<p><b>* (Survival) Minimum Expenditure Basket</b>
+&ensp;<div>The SMEB includes the goods and services to satisfy basic survival needs in the short term while the MEB are the ones to meet basic needs and minimum living standards without resolving to negative coping strategies or compromising people’s health, dignity and essential livelihood assets in the long term. The definition is usually set by the international humanitarian community and is dynamic - it could change depending on the situation. For example, during the pandemic, some (S)MEBs included hand sanitizer and PPE. <br>
+<small><a href="https://www.unhcr.org/handbooks/assessment/sites/assessment/files/2023-11/UNHCR%20CBI%20MEB%20guidance.pdf">UNHCR: Quantifying Cost of Living for Cash-Based Interventions</a><br>
+<a href="https://www.calpnetwork.org/wp-content/uploads/2022/10/MEB_CALP_2022_HD.pdf">CALP Network: Calculating the Minimum Expenditure Basket</a></small>
+</div></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2024-04-24 23:26:23.119138+00:00
+-->
