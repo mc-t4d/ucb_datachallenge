@@ -18,7 +18,6 @@ The solution could take the form of an application or a programming package. The
 Why do we need this? 
 Some organizations and websites provide this information in easily digestible, visualized information sources. But often times, we want to go deeper with our analysis, so we need to be able to export the information. In addition, some data sources - while seemingly reliable - may not be the preferred data source for that country. Having flexible mechanisms to conduct data collection, integration, and analysis is our most preferred scenario. 
 
-
 ## Definitions
 
 <b>* Mercy Corps Countries in East Africa</b>
